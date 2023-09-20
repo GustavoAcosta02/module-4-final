@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #0C4640;
+  height: 70px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.nav :hover{
+  color: black;
+}
+
+.nav--logo {
+  height: 70px;
+  border-radius: 30px;
+}
+
+.nav > a {
+  display: flex;
+  text-decoration:none;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+
+.home {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #1B9D90;
+height: 100vh;
+color: white;
+}
+
+.home--photo {
+  max-height: 600px;
+  max-width: 400px;
+  border-radius: 20px;;
+}
+
+.ticketsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: #1B9D90;
+  color: white;
+  padding-left: 15px;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1B9D90;
+  color: white;
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1B9D90;
+  color: white;
+  height: 100vh;
+}

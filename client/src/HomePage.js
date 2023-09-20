@@ -1,12 +1,13 @@
 
 import React from "react";
+import homePhoto from './pexels-fauxels-3184423.jpg';
 
 function HomePage() {
   return (
-    <div>
-      <h1>Welcome to the Ticket Management System</h1>
-      <p>This is the home page of our ticket management system.</p>
-      <p>Use the navigation bar to explore and manage your tickets.</p>
+    <div className="home">
+             <h2>Welcome back to Synergy HR! </h2>
+             <img src = {homePhoto} className = "home--photo" />
+             <h2>Making sure your needs are always met!</h2>
     </div>
   );
 }

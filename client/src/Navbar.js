@@ -1,25 +1,17 @@
 // Navbar.js
 
 import React from "react";
+import logo from './pexels-kindel-media-8566472.jpg';
 import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li>
+    <nav className="nav">
+          <Link to = "/"><img src ={logo} className = "nav--logo"/></Link>
           <Link to="/">Home</Link>
-        </li>
-        <li>
           <Link to="/tickets">Tickets</Link>
-        </li>
-        <li>
           <Link to="/registration">Registration</Link>
-        </li>
-        <li>
           <Link to="/login">Login</Link>
-        </li>
-      </ul>
     </nav>
   );
 }

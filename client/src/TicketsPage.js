@@ -55,7 +55,7 @@ function TicketsPage() {
   };
 
   return (
-    <div>
+    <div className="ticketsPage">
       <h1>Ticket Management System</h1>
 
       <div>
@@ -81,7 +81,7 @@ function TicketsPage() {
         <button onClick={handleCreateTicket}>Create</button>
       </div>
 
-      <div>
+      <div className="tickets">
         <h2>Tickets</h2>
         {(backendData.length === 0) ? (
           <p>Loading...</p>
